@@ -23,7 +23,6 @@ def temp_classifier(temp_celsius):
        
     return (category)
 
-
 # Check that the function has a single parameter and the parameter name is correct
 params = list(inspect.signature(temp_classifier).parameters.keys())
 
